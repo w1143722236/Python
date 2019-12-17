@@ -19,8 +19,7 @@ import threading
 class GetCity(object):
     """爬取国家统计局省、市、区/县、乡/镇 四级地址"""
     # 地址
-    url = 'http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2017/'
-
+    url = 'http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2018/'
     def __init__(self):
         """初始化属性"""
         self.json_folder = 'json'
